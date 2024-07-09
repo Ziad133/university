@@ -1,0 +1,79 @@
+/* CSS styles for the blog site */
+
+/* Body and general styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 70px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cccccc;
+}
+
+/* Card styling for posts */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
